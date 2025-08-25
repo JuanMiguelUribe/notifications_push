@@ -23,13 +23,9 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
+      itemCount: 2,
       itemBuilder: (context, index) {
-        return ListTile(
-          title: Text("Notificacion $index"),
-          subtitle: Text("Este es el detalle de la notificacion $index"),
-          trailing: const Icon(Icons.arrow_forward_ios_outlined),
-          onTap: () {},
-        );
+        return Placeholder();
       },
     );
   }
