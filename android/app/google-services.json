@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1048616933365",
+    "project_id": "flutter-projects-d8ea1",
+    "storage_bucket": "flutter-projects-d8ea1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048616933365:android:64af40b499dca4b8b032bc",
+        "android_client_info": {
+          "package_name": "com.juanuribe.notifications_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeIlqaSdSNq9Oxd6NDUfZeza_ew6zSy6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
