@@ -31,6 +31,7 @@ class NotificationsBloc extends Bloc<NotificationsEvent, NotificationsState> {
 
   void _initialStatusCheck() async {
     final settings = await messaging.getNotificationSettings();
+    add(NotificationStatusChanged(settings.authorizationStatus));
   }
 
   void requestPermission() async {
